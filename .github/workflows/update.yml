@@ -18,10 +18,10 @@ jobs:
       - name: python install
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r update/requirements.txt
       - name: run script
         run: |
-          echo ::set-output name=results::$(python update.py)
+          echo ::set-output name=results::$(python update/update.py)
         id: run_script
       - name: what changed
         env:
