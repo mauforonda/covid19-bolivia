@@ -1,9 +1,10 @@
 Series de tiempo de casos de covid-19 en Bolivia en base a datos oficiales publicados en [[https://www.boliviasegura.gob.bo/][boliviasegura.gob.bo]].
 
-Los documentos =confirmados.csv=, =recuperados.csv=, =decesos.csv=, =sospechosos.csv= y =descartados.csv= son un archivo de los atributos publicados oficialmente. 
-El documento =total.csv= ordena estos valores en el formato del [[https://github.com/CSSEGISandData/COVID-19][repositorio de JHU]] para ser fácilmente comparado con datos de otros países. 
-Finalmente, proveo =data.json= para facilitar el uso de estos datos en proyectos como visualizaciones interactivas. Puedes utilizar estos datos directamente a través de [[https://mauforonda.github.io/covid19-bolivia/data.json][este enlace]].
+Los documentos =confirmados.csv=, =recuperados.csv=, =decesos.csv=, =sospechosos.csv= y =descartados.csv= son un archivo de los valores publicados oficialmente, se reportan en tiempo local (=GMT-4=).
 
-Monitoreo el sitio oficial cada 15 minutos. Sin embargo, la interfaz del sitio cambia rápidamente y es posible que existan retrasos en algunas actualizaciones mientras actualizo el programa que utilizo para monitoreo. 
+=data.json= es una representación de estos datos para ser consumida por proyectos como visualizaciones de datos. Puedes utilizar estos datos directamente a través de [[https://mauforonda.github.io/covid19-bolivia/data.json][este enlace]].
 
-Todos los tiempos son =GMT-4= y cierro el conteo de cada día a las 00:00 (GMT-4).
+=total.csv= muestra estos valores en el formato del [[https://github.com/CSSEGISandData/COVID-19][repositorio de JHU]] para ser fácilmente comparado con datos de otros países. Para facilitar la comparación, los tiempos se reportan en =UTC=.
+
+Monitoreo el sitio oficial cada 15 minutos mediante un workflow de github actions. Sin embargo, la interfaz del sitio cambia rápidamente y es posible que existan retrasos en algunas actualizaciones mientras actualizo el programa que utilizo para monitoreo. 
+

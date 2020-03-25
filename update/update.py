@@ -4,8 +4,9 @@ import requests
 import csv
 from datetime import date, datetime
 import json
+import pytz
 
-today = date.today().isoformat()
+today = datetime.strftime(datetime.now(pytz.timezone('America/La_Paz')), '%Y-%m-%d')
 features = ['confirmados', 'decesos', 'recuperados', 'sospechosos', 'descartados']
 departamentos = {'lp': 'La Paz', 'cb': 'Cochabamba', 'sc': 'Santa Cruz', 'or': 'Oruro', 'pt': 'Potosí', 'tj': 'Tarija', 'ch': 'Chuquisaca', 'bn': 'Beni', 'pn': 'Pando'}
 locations = {'La Paz':[-15.0,-68.333333],
@@ -23,8 +24,8 @@ updated = {'number': 0, 'message': ''}
 def format_by_feature(data, features):
   return {feature:{departamentos[dep]:str(data[dep]['contador'][feature]) for dep in data.keys()} for feature in features}
 
-def format_total(data, features, fecha):
-  now = datetime.strptime(fecha, '%d/%m/%y %H:%M').isoformat()
+def format_total(data, features):
+  now = datetime.now(pytz.utc).strftime('%Y-%m-%dT%H:%M:%S')
   return {departamentos[d]: [now, str(data[d]['contador']['confirmados']), str(data[d]['contador']['decesos']), str(data[d]['contador']['recuperados'])]for d in data.keys()}
   
 def read_old_features():
@@ -107,7 +108,7 @@ def update_features(response):
     any_new_features(by_feature, old_features)
 
 def update_total(response):
-  total = format_total(response['departamento'], features, response['fecha'])
+  total = format_total(response['departamento'], features)
   old_total = read_old_total()
   any_new_total(total, old_total)
     
