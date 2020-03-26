@@ -41,7 +41,7 @@ def is_new_day(old_data):
 def update_json(data):
   json_data = {feature: [{"fecha": dia['Fecha'], 'dep': {d.lower().replace(" ", "_"): int(dia[d])for d in [departamentos[d] for d in departamentos.keys()]}} for dia in data[feature]] for feature in features}
   with open('data.json', 'w+') as f:
-    json.dump(json_data, f, ensure_ascii=False)
+    json.dump(json_data, f, ensure_ascii=False, indent=2)
 
 def new_row(old_data, new_data):
   for feature in features:
