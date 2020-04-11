@@ -5,7 +5,7 @@
       "dep": {
         "la_paz": 59,
         "cochabamba": 48,
-        "santa_cruz": 130,
+        "santa_cruz": 134,
         "oruro": 9,
         "potosí": 13,
         "tarija": 1,
@@ -1189,9 +1189,9 @@
       "dep": {
         "la_paz": 555,
         "cochabamba": 471,
-        "santa_cruz": 649,
+        "santa_cruz": 669,
         "oruro": 26,
-        "potosí": 26,
+        "potosí": 25,
         "tarija": 18,
         "chuquisaca": 92,
         "beni": 36,
