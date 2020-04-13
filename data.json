@@ -1,6 +1,20 @@
 {
   "confirmados": [
     {
+      "fecha": "2020-04-13",
+      "dep": {
+        "la_paz": 73,
+        "cochabamba": 52,
+        "santa_cruz": 163,
+        "oruro": 13,
+        "potosí": 15,
+        "tarija": 2,
+        "chuquisaca": 1,
+        "beni": 0,
+        "pando": 11
+      }
+    },
+    {
       "fecha": "2020-04-12",
       "dep": {
         "la_paz": 73,
@@ -324,6 +338,20 @@
     }
   ],
   "decesos": [
+    {
+      "fecha": "2020-04-13",
+      "dep": {
+        "la_paz": 10,
+        "cochabamba": 4,
+        "santa_cruz": 10,
+        "oruro": 2,
+        "potosí": 1,
+        "tarija": 0,
+        "chuquisaca": 0,
+        "beni": 0,
+        "pando": 0
+      }
+    },
     {
       "fecha": "2020-04-12",
       "dep": {
@@ -649,6 +677,20 @@
   ],
   "recuperados": [
     {
+      "fecha": "2020-04-13",
+      "dep": {
+        "la_paz": 0,
+        "cochabamba": 0,
+        "santa_cruz": 1,
+        "oruro": 1,
+        "potosí": 0,
+        "tarija": 0,
+        "chuquisaca": 0,
+        "beni": 0,
+        "pando": 0
+      }
+    },
+    {
       "fecha": "2020-04-12",
       "dep": {
         "la_paz": 0,
@@ -973,6 +1015,20 @@
   ],
   "sospechosos": [
     {
+      "fecha": "2020-04-13",
+      "dep": {
+        "la_paz": 4,
+        "cochabamba": 0,
+        "santa_cruz": 0,
+        "oruro": 0,
+        "potosí": 0,
+        "tarija": 0,
+        "chuquisaca": 4,
+        "beni": 1,
+        "pando": 29
+      }
+    },
+    {
       "fecha": "2020-04-12",
       "dep": {
         "la_paz": 4,
@@ -1296,6 +1352,20 @@
     }
   ],
   "descartados": [
+    {
+      "fecha": "2020-04-13",
+      "dep": {
+        "la_paz": 614,
+        "cochabamba": 541,
+        "santa_cruz": 775,
+        "oruro": 50,
+        "potosí": 43,
+        "tarija": 26,
+        "chuquisaca": 95,
+        "beni": 36,
+        "pando": 18
+      }
+    },
     {
       "fecha": "2020-04-12",
       "dep": {
