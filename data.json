@@ -1355,12 +1355,12 @@
       "dep": {
         "la_paz": 4,
         "cochabamba": 0,
-        "santa_cruz": 35,
+        "santa_cruz": 0,
         "oruro": 0,
-        "potosí": 12,
-        "tarija": 2,
+        "potosí": 20,
+        "tarija": 3,
         "chuquisaca": 1,
-        "beni": 1,
+        "beni": 0,
         "pando": 1
       }
     },
