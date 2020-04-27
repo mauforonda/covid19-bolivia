@@ -17,14 +17,14 @@
     {
       "fecha": "2020-04-25",
       "dep": {
-        "la_paz": 155,
-        "cochabamba": 70,
-        "santa_cruz": 446,
+        "la_paz": 159,
+        "cochabamba": 71,
+        "santa_cruz": 489,
         "oruro": 65,
-        "potosí": 21,
+        "potosí": 26,
         "tarija": 3,
         "chuquisaca": 2,
-        "beni": 33,
+        "beni": 39,
         "pando": 12
       }
     },
@@ -537,9 +537,9 @@
     {
       "fecha": "2020-04-25",
       "dep": {
-        "la_paz": 14,
+        "la_paz": 15,
         "cochabamba": 6,
-        "santa_cruz": 19,
+        "santa_cruz": 20,
         "oruro": 2,
         "potosí": 1,
         "tarija": 0,
