@@ -113,7 +113,7 @@ def update_total(response):
   any_new_total(total, old_total)
     
 def init():
-  url = 'https://www.boliviasegura.gob.bo/wp-content/json/api.php'
+  url = 'https://boliviasegura.agetic.gob.bo/wp-content/json/api.php'
   response = requests.get(url).json()
   update_features(response)
   update_total(response)

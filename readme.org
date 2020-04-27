@@ -8,3 +8,4 @@ Los documentos =confirmados.csv=, =recuperados.csv=, =decesos.csv=, =sospechosos
 
 Monitoreo el sitio oficial cada 15 minutos mediante un workflow de github actions. Sin embargo, la interfaz del sitio cambia rápidamente y es posible que existan retrasos en algunas actualizaciones mientras actualizo el programa que utilizo para monitoreo. 
 
+(debido a una interrupción del servicio, los datos para el 25 de abril no son correctos)
