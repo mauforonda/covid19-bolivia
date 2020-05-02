@@ -614,7 +614,7 @@
         "potosí": 1,
         "tarija": 0,
         "chuquisaca": 0,
-        "beni": 1,
+        "beni": 3,
         "pando": 1
       }
     },
@@ -1213,7 +1213,7 @@
       "dep": {
         "la_paz": 27,
         "cochabamba": 25,
-        "santa_cruz": 50,
+        "santa_cruz": 64,
         "oruro": 10,
         "potosí": 2,
         "tarija": 0,
