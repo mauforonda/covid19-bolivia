@@ -8,4 +8,10 @@ Los documentos =confirmados.csv=, =recuperados.csv=, =decesos.csv=, =sospechosos
 
 Monitoreo el sitio oficial cada 15 minutos mediante un workflow de github actions. Sin embargo, la interfaz del sitio cambia rápidamente y es posible que existan retrasos en algunas actualizaciones mientras actualizo el programa que utilizo para monitoreo. 
 
-(debido a una interrupción del servicio del gobierno, los datos de recuperados, sospechosos y descartados para el 25 de abril no son correctos)
+Problemas con la fuente oficial de datos y advertencias de uso:
+
+- Debido a una interrupción del servicio, los datos de recuperados, sospechosos y descartados para el 25 de abril no son correctos.
+- Desde el 2 de mayo los datos de casos descartados han dejado de ser actualizados.
+- Los datos de casos sospechosos contínuamente dejan de ser actualizados.
+- Actualmente el gobierno utiliza el servicio web que alimenta los datos en este repositorio para presentar estadísticas en la aplicación móvil oficial. Esta aplicación ahora (2020-05-08) sólo muestra datos de casos confirmados, recuperados y fallecidos.
+- En conclusión, recomiendo sólo utilizar los datos de casos confirmados, recuperados y fallecidos.
