@@ -1575,14 +1575,14 @@
     {
       "fecha": "2020-05-15",
       "dep": {
-        "la_paz": 101,
-        "cochabamba": 45,
-        "santa_cruz": 127,
+        "la_paz": 123,
+        "cochabamba": 50,
+        "santa_cruz": 175,
         "oruro": 65,
         "potosí": 7,
         "tarija": 2,
         "chuquisaca": 1,
-        "beni": 1,
+        "beni": 4,
         "pando": 7
       }
     },
