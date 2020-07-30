@@ -15,3 +15,7 @@ Problemas con la fuente oficial de datos y advertencias de uso:
 - Los datos de casos sospechosos contínuamente dejan de ser actualizados.
 - Actualmente el gobierno utiliza el servicio web que alimenta los datos en este repositorio para presentar estadísticas en la aplicación móvil oficial. Esta aplicación ahora (2020-05-08) sólo muestra datos de casos confirmados, recuperados y fallecidos.
 - En conclusión, recomiendo sólo utilizar los datos de casos confirmados, recuperados y fallecidos.
+
+Ocasiones en que he editado manualmente los datos debido a interrupciones del servicio de datos:
+- 25 de Abril: datos de confirmados y decesos
+- 29 de Julio: datos de confirmados, recuperados y decesos
