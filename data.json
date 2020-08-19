@@ -1,6 +1,20 @@
 {
   "confirmados": [
     {
+      "fecha": "2020-08-19",
+      "dep": {
+        "la_paz": 26295,
+        "cochabamba": 11491,
+        "santa_cruz": 38580,
+        "oruro": 4299,
+        "potosí": 4152,
+        "tarija": 6012,
+        "chuquisaca": 4147,
+        "beni": 6022,
+        "pando": 2021
+      }
+    },
+    {
       "fecha": "2020-08-18",
       "dep": {
         "la_paz": 26295,
@@ -2116,6 +2130,20 @@
     }
   ],
   "decesos": [
+    {
+      "fecha": "2020-08-19",
+      "dep": {
+        "la_paz": 491,
+        "cochabamba": 847,
+        "santa_cruz": 1494,
+        "oruro": 250,
+        "potosí": 163,
+        "tarija": 144,
+        "chuquisaca": 318,
+        "beni": 322,
+        "pando": 143
+      }
+    },
     {
       "fecha": "2020-08-18",
       "dep": {
@@ -4233,6 +4261,20 @@
   ],
   "recuperados": [
     {
+      "fecha": "2020-08-19",
+      "dep": {
+        "la_paz": 2234,
+        "cochabamba": 5636,
+        "santa_cruz": 25972,
+        "oruro": 846,
+        "potosí": 566,
+        "tarija": 1221,
+        "chuquisaca": 1086,
+        "beni": 761,
+        "pando": 301
+      }
+    },
+    {
       "fecha": "2020-08-18",
       "dep": {
         "la_paz": 2234,
@@ -6349,6 +6391,20 @@
   ],
   "sospechosos": [
     {
+      "fecha": "2020-08-19",
+      "dep": {
+        "la_paz": 4,
+        "cochabamba": 0,
+        "santa_cruz": 0,
+        "oruro": 0,
+        "potosí": 20,
+        "tarija": 6,
+        "chuquisaca": 40,
+        "beni": 0,
+        "pando": 0
+      }
+    },
+    {
       "fecha": "2020-08-18",
       "dep": {
         "la_paz": 4,
@@ -8464,6 +8520,20 @@
     }
   ],
   "descartados": [
+    {
+      "fecha": "2020-08-19",
+      "dep": {
+        "la_paz": 1830,
+        "cochabamba": 1052,
+        "santa_cruz": 2365,
+        "oruro": 325,
+        "potosí": 145,
+        "tarija": 47,
+        "chuquisaca": 131,
+        "beni": 116,
+        "pando": 75
+      }
+    },
     {
       "fecha": "2020-08-18",
       "dep": {
