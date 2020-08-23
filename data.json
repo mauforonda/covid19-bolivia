@@ -1,6 +1,20 @@
 {
   "confirmados": [
     {
+      "fecha": "2020-08-23",
+      "dep": {
+        "la_paz": 27985,
+        "cochabamba": 11791,
+        "santa_cruz": 39286,
+        "oruro": 4636,
+        "potosí": 4736,
+        "tarija": 6905,
+        "chuquisaca": 4536,
+        "beni": 6322,
+        "pando": 2230
+      }
+    },
+    {
       "fecha": "2020-08-22",
       "dep": {
         "la_paz": 27985,
@@ -2172,6 +2186,20 @@
     }
   ],
   "decesos": [
+    {
+      "fecha": "2020-08-23",
+      "dep": {
+        "la_paz": 555,
+        "cochabamba": 870,
+        "santa_cruz": 1603,
+        "oruro": 256,
+        "potosí": 178,
+        "tarija": 164,
+        "chuquisaca": 344,
+        "beni": 327,
+        "pando": 145
+      }
+    },
     {
       "fecha": "2020-08-22",
       "dep": {
@@ -4345,6 +4373,20 @@
   ],
   "recuperados": [
     {
+      "fecha": "2020-08-23",
+      "dep": {
+        "la_paz": 3299,
+        "cochabamba": 6545,
+        "santa_cruz": 27943,
+        "oruro": 1626,
+        "potosí": 623,
+        "tarija": 1328,
+        "chuquisaca": 1348,
+        "beni": 869,
+        "pando": 306
+      }
+    },
+    {
       "fecha": "2020-08-22",
       "dep": {
         "la_paz": 3299,
@@ -6517,6 +6559,20 @@
   ],
   "sospechosos": [
     {
+      "fecha": "2020-08-23",
+      "dep": {
+        "la_paz": 4,
+        "cochabamba": 0,
+        "santa_cruz": 0,
+        "oruro": 0,
+        "potosí": 20,
+        "tarija": 6,
+        "chuquisaca": 40,
+        "beni": 0,
+        "pando": 0
+      }
+    },
+    {
       "fecha": "2020-08-22",
       "dep": {
         "la_paz": 4,
@@ -8688,6 +8744,20 @@
     }
   ],
   "descartados": [
+    {
+      "fecha": "2020-08-23",
+      "dep": {
+        "la_paz": 1830,
+        "cochabamba": 1052,
+        "santa_cruz": 2365,
+        "oruro": 325,
+        "potosí": 145,
+        "tarija": 47,
+        "chuquisaca": 131,
+        "beni": 116,
+        "pando": 75
+      }
+    },
     {
       "fecha": "2020-08-22",
       "dep": {
