@@ -1,6 +1,20 @@
 {
   "confirmados": [
     {
+      "fecha": "2020-08-28",
+      "dep": {
+        "la_paz": 29851,
+        "cochabamba": 12161,
+        "santa_cruz": 40014,
+        "oruro": 4818,
+        "potosí": 5252,
+        "tarija": 7311,
+        "chuquisaca": 4923,
+        "beni": 6502,
+        "pando": 2297
+      }
+    },
+    {
       "fecha": "2020-08-27",
       "dep": {
         "la_paz": 29851,
@@ -2242,6 +2256,20 @@
     }
   ],
   "decesos": [
+    {
+      "fecha": "2020-08-28",
+      "dep": {
+        "la_paz": 659,
+        "cochabamba": 913,
+        "santa_cruz": 1730,
+        "oruro": 263,
+        "potosí": 191,
+        "tarija": 186,
+        "chuquisaca": 370,
+        "beni": 332,
+        "pando": 147
+      }
+    },
     {
       "fecha": "2020-08-27",
       "dep": {
@@ -4485,6 +4513,20 @@
   ],
   "recuperados": [
     {
+      "fecha": "2020-08-28",
+      "dep": {
+        "la_paz": 6693,
+        "cochabamba": 7675,
+        "santa_cruz": 30450,
+        "oruro": 1796,
+        "potosí": 692,
+        "tarija": 2206,
+        "chuquisaca": 1679,
+        "beni": 1022,
+        "pando": 308
+      }
+    },
+    {
       "fecha": "2020-08-27",
       "dep": {
         "la_paz": 6693,
@@ -6727,6 +6769,20 @@
   ],
   "sospechosos": [
     {
+      "fecha": "2020-08-28",
+      "dep": {
+        "la_paz": 4,
+        "cochabamba": 0,
+        "santa_cruz": 0,
+        "oruro": 0,
+        "potosí": 20,
+        "tarija": 6,
+        "chuquisaca": 40,
+        "beni": 0,
+        "pando": 0
+      }
+    },
+    {
       "fecha": "2020-08-27",
       "dep": {
         "la_paz": 4,
@@ -8968,6 +9024,20 @@
     }
   ],
   "descartados": [
+    {
+      "fecha": "2020-08-28",
+      "dep": {
+        "la_paz": 1830,
+        "cochabamba": 1052,
+        "santa_cruz": 2365,
+        "oruro": 325,
+        "potosí": 145,
+        "tarija": 47,
+        "chuquisaca": 131,
+        "beni": 116,
+        "pando": 75
+      }
+    },
     {
       "fecha": "2020-08-27",
       "dep": {
