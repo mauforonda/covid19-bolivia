@@ -3,15 +3,15 @@
     {
       "fecha": "2020-09-01",
       "dep": {
-        "la_paz": 30999,
-        "cochabamba": 12370,
-        "santa_cruz": 40445,
-        "oruro": 4960,
-        "potosí": 5539,
-        "tarija": 8135,
-        "chuquisaca": 5220,
-        "beni": 6610,
-        "pando": 2320
+        "la_paz": 31039,
+        "cochabamba": 12432,
+        "santa_cruz": 40638,
+        "oruro": 4968,
+        "potosí": 5655,
+        "tarija": 8269,
+        "chuquisaca": 5295,
+        "beni": 6639,
+        "pando": 2332
       }
     },
     {
@@ -2315,14 +2315,14 @@
     {
       "fecha": "2020-09-01",
       "dep": {
-        "la_paz": 715,
-        "cochabamba": 941,
-        "santa_cruz": 1831,
+        "la_paz": 748,
+        "cochabamba": 949,
+        "santa_cruz": 1854,
         "oruro": 266,
-        "potosí": 198,
-        "tarija": 200,
-        "chuquisaca": 395,
-        "beni": 334,
+        "potosí": 199,
+        "tarija": 203,
+        "chuquisaca": 400,
+        "beni": 335,
         "pando": 147
       }
     },
@@ -4627,15 +4627,15 @@
     {
       "fecha": "2020-09-01",
       "dep": {
-        "la_paz": 10352,
-        "cochabamba": 8232,
-        "santa_cruz": 32061,
-        "oruro": 1923,
-        "potosí": 898,
-        "tarija": 3565,
-        "chuquisaca": 1968,
-        "beni": 1082,
-        "pando": 327
+        "la_paz": 11202,
+        "cochabamba": 8368,
+        "santa_cruz": 32431,
+        "oruro": 1932,
+        "potosí": 902,
+        "tarija": 3852,
+        "chuquisaca": 2016,
+        "beni": 1084,
+        "pando": 337
       }
     },
     {
