@@ -2777,13 +2777,13 @@
     {
       "fecha": "2020-10-04",
       "dep": {
-        "la_paz": 1028,
-        "cochabamba": 1140,
-        "santa_cruz": 3998,
+        "la_paz": 1033,
+        "cochabamba": 1145,
+        "santa_cruz": 4011,
         "oruro": 300,
         "potosí": 248,
-        "tarija": 321,
-        "chuquisaca": 484,
+        "tarija": 323,
+        "chuquisaca": 487,
         "beni": 361,
         "pando": 165
       }
@@ -5551,15 +5551,15 @@
     {
       "fecha": "2020-10-04",
       "dep": {
-        "la_paz": 25815,
-        "cochabamba": 11004,
-        "santa_cruz": 38478,
-        "oruro": 2805,
-        "potosí": 2667,
-        "tarija": 7730,
-        "chuquisaca": 4874,
-        "beni": 2746,
-        "pando": 535
+        "la_paz": 25932,
+        "cochabamba": 11082,
+        "santa_cruz": 38499,
+        "oruro": 2824,
+        "potosí": 2680,
+        "tarija": 7790,
+        "chuquisaca": 4936,
+        "beni": 2826,
+        "pando": 536
       }
     },
     {
