@@ -1,6 +1,20 @@
 {
   "confirmados": [
     {
+      "fecha": "2020-10-26",
+      "dep": {
+        "la_paz": 34825,
+        "cochabamba": 13914,
+        "santa_cruz": 43787,
+        "oruro": 5960,
+        "potosí": 9023,
+        "tarija": 15947,
+        "chuquisaca": 7662,
+        "beni": 7288,
+        "pando": 2373
+      }
+    },
+    {
       "fecha": "2020-10-25",
       "dep": {
         "la_paz": 34825,
@@ -3068,6 +3082,20 @@
     }
   ],
   "decesos": [
+    {
+      "fecha": "2020-10-26",
+      "dep": {
+        "la_paz": 1112,
+        "cochabamba": 1245,
+        "santa_cruz": 4298,
+        "oruro": 310,
+        "potosí": 258,
+        "tarija": 366,
+        "chuquisaca": 502,
+        "beni": 371,
+        "pando": 165
+      }
+    },
     {
       "fecha": "2020-10-25",
       "dep": {
@@ -6137,6 +6165,20 @@
   ],
   "recuperados": [
     {
+      "fecha": "2020-10-26",
+      "dep": {
+        "la_paz": 28236,
+        "cochabamba": 11893,
+        "santa_cruz": 38918,
+        "oruro": 3332,
+        "potosí": 3783,
+        "tarija": 10924,
+        "chuquisaca": 5842,
+        "beni": 4556,
+        "pando": 583
+      }
+    },
+    {
       "fecha": "2020-10-25",
       "dep": {
         "la_paz": 28236,
@@ -9205,6 +9247,20 @@
   ],
   "sospechosos": [
     {
+      "fecha": "2020-10-26",
+      "dep": {
+        "la_paz": 4,
+        "cochabamba": 0,
+        "santa_cruz": 0,
+        "oruro": 0,
+        "potosí": 20,
+        "tarija": 6,
+        "chuquisaca": 40,
+        "beni": 0,
+        "pando": 0
+      }
+    },
+    {
       "fecha": "2020-10-25",
       "dep": {
         "la_paz": 4,
@@ -12272,6 +12328,20 @@
     }
   ],
   "descartados": [
+    {
+      "fecha": "2020-10-26",
+      "dep": {
+        "la_paz": 1830,
+        "cochabamba": 1052,
+        "santa_cruz": 2365,
+        "oruro": 325,
+        "potosí": 145,
+        "tarija": 47,
+        "chuquisaca": 131,
+        "beni": 116,
+        "pando": 75
+      }
+    },
     {
       "fecha": "2020-10-25",
       "dep": {
