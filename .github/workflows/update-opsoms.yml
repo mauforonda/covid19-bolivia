@@ -8,10 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@opsoms
+        uses: actions/checkout@master
         with:
           ref: opsoms
-          lfs: true
       - name: setup python
         uses: actions/setup-python@v1
         with:
@@ -37,4 +36,4 @@ jobs:
         run: |
           git add -A
           git commit -m "[ci] actualización"
-          git push -q "https://$GH_TOKEN@github.com/pr0nstar/covid19-bolivia.git" main
+          git push -q "https://$GH_TOKEN@github.com/pr0nstar/covid19-bolivia.git" opsoms
