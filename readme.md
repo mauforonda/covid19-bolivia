@@ -5,6 +5,12 @@
 
 ---
 
-Sobre los datos oficiales en `opsoms`:
+## Sobre los datos oficiales en `opsoms`
 
 Los documentos `confirmados.csv` y `decesos.csv` se reportan en tiempo local (`GMT-4`).
+
+Fechas en que la fuente no reportó o reportó malos datos:
+
+- 2020-12-23
+- 2020-12-24
+- 2020-12-25
