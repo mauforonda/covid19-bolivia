@@ -27,7 +27,8 @@ def do_fetch(_try=1):
     except Exception as e: # :S
         if _try > RETRY_M:
             raise(e)
-        fetch(_try + 1)
+
+        do_fetch(_try + 1)
 
     return raw
 
@@ -53,18 +54,39 @@ def do_format(df):
     return df
 
 
+def do_patch(feature_df, feature):
+    patches = pd.read_csv(
+        './patches/{}.csv'.format(feature),
+        parse_dates=True,
+        index_col='Fecha'
+    )
+
+    feature_df = pd.concat([feature_df, patches], sort=False)
+    feature_df = feature_df[~feature_df.index.duplicated(keep='last')]
+
+    return feature_df.sort_index(ascending=False)
+
+
+def do_merge(df, feature):
+    feature_df = pd.read_csv(
+        './{}.csv'.format(feature),
+        parse_dates=True,
+        index_col='Fecha'
+    )
+
+    feature_df = pd.concat(
+        [feature_df, df.loc[[feature]].set_index('Fecha')],
+        sort=False
+    )
+    feature_df = feature_df[~feature_df.index.duplicated(keep='last')]
+
+    return feature_df.sort_index(ascending=False)
+
+
 def merge_features(df):
     for feature in feature_map.values():
-        feature_df = pd.read_csv('./{}.csv'.format(feature))
-
-        feature_df['Fecha'] = pd.to_datetime(feature_df['Fecha'])
-        feature_df = feature_df.set_index('Fecha')
-
-        feature_df = pd.concat(
-            [feature_df, df.loc[[feature]].set_index('Fecha')]
-        )
-        feature_df = feature_df[~feature_df.index.duplicated(keep='last')]
-        feature_df = feature_df.sort_index(ascending=False)
+        feature_df = do_merge(df, feature)
+        feature_df = do_patch(feature_df, feature)
 
         feature_df.to_csv('./{}.csv'.format(feature))
 
