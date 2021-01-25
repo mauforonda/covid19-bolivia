@@ -9,9 +9,4 @@
 
 Los documentos `confirmados.csv` y `decesos.csv` se reportan en tiempo local (`GMT-4`).
 
-Algunos días la fuente no reporta datos correctamente. El directorio `patches` incluye los parches que se aplican a los datos de estos días. Puedes sugerir nuevos parches creando un issue o pull request. Fechas donde aplicamos parches:
-
-- 2020-12-23
-- 2020-12-24
-- 2020-12-25
-- 2021-01-01
+Algunos días la fuente no reporta datos correctamente. El directorio `patches` incluye los parches que se aplican a los datos de estos días. Puedes sugerir nuevos parches creando un issue o pull request.
