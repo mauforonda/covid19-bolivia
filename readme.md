@@ -1,3 +1,9 @@
+## ⚠ Archivado ⚠
+
+Si buscas datos oficiales y actualizados de casos de covid-19 en Bolivia utiliza [mauforonda/covid19-bolivia-udape](mauforonda/covid19-bolivia-udape). 
+
+---
+
 > Series de tiempo de casos de covid-19 en Bolivia en base a datos oficiales
 
 **Actualización** 
