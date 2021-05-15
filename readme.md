@@ -1,3 +1,9 @@
+## ⚠ Archivado ⚠
+
+Si buscas datos oficiales y actualizados de casos de covid-19 en Bolivia utiliza [mauforonda/covid19-bolivia-udape](mauforonda/covid19-bolivia-udape). 
+
+---
+
 > Series de tiempo de casos de covid-19 en Bolivia en base a datos oficiales
 
 - [El branch `master`](https://github.com/mauforonda/covid19-bolivia/tree/master/)contiene datos de [boliviasegura](https://www.boliviasegura.gob.bo/), el sitio oficial del gobierno nacional, irregulares desde Octubre de 2020.
